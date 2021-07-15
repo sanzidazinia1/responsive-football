@@ -113,13 +113,7 @@ h1 {
 /* Copa America styles end */
 
 /* Resistration from added  */
-.form-title .from-info {
-  text-align: center;
-}
-section.from {
-  text-align: center;
-}
-/* resistretion from added  */
+
 section.resistretion-from {
   text-align: center;
 }
@@ -172,21 +166,8 @@ footer {
   text-align: center;
   margin-top: 20px;
 }
-
-/*----------------------
-          media query
-          ----------------------- */
-/* @media (max-width: 700px) {
-}
-.main-section {
-  width: 280px;
-  /* height: 40%; */
-/* display: flex;
-  flex-wrap: wrap;
-} */
-/*----------------------
-            media query
-            ----------------------- */
+/* -----------
+ media-query ----------*/
 @media (max-width: 600px) {
   .player-section {
     width: 80%;
