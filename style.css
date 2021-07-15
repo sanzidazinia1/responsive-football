@@ -40,6 +40,10 @@ main h1 {
   font-size: 64px;
   font-weight: 700;
   color: #ffffff;
+  transition: font-size 2s;
+}
+h1:hover {
+  font-size: 3rem;
 }
 
 .btn {
@@ -54,7 +58,7 @@ main h1 {
 }
 
 .banner-img img {
-  width: 556.01px;
+  width: 556px;
   height: 456px;
 }
 /*------------
@@ -105,7 +109,6 @@ h1 {
 .banner-img {
   width: 570px;
   height: 480px;
-  background-color: none;
 }
 /* Copa America styles end */
 
