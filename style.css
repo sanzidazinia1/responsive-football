@@ -112,9 +112,20 @@ h1 {
 }
 /* Copa America styles end */
 
-/*-------------
-     added videos
------------ */
+/* Resistration from added  */
+.form-title .from-info {
+  text-align: center;
+}
+section.from {
+  text-align: center;
+}
+/* resistretion from added  */
+section.resistretion-from {
+  text-align: center;
+}
+/*------------------
+     added videos styles
+----------------- */
 .videos-title {
   padding: 20px;
 }
@@ -140,7 +151,9 @@ img {
   align-items: center;
 }
 
-/* social icon added  */
+/*--------------
+        social icon added 
+        ----------------- */
 
 .social-icon {
   text-align: center;
@@ -150,8 +163,68 @@ img {
 i {
   padding: 3px;
 }
+
+/*-----------------
+           added footer
+           --------------------  */
 footer {
   font-family: "Poppins", sans-serif;
   text-align: center;
   margin-top: 20px;
+}
+
+/*----------------------
+          media query
+          ----------------------- */
+/* @media (max-width: 700px) {
+}
+.main-section {
+  width: 280px;
+  /* height: 40%; */
+/* display: flex;
+  flex-wrap: wrap;
+} */
+/*----------------------
+            media query
+            ----------------------- */
+@media (max-width: 600px) {
+  .player-section {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 27px;
+  }
+  .Copa-America-section {
+    display: flex;
+    flex-direction: column;
+    height: 1200px;
+    width: 80%;
+  }
+
+  .banner-img img {
+    width: 80%;
+    height: auto;
+  }
+  .main-section {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    align-items: center;
+    margin-bottom: 70px;
+    width: 100%;
+  }
+
+  .videos {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 5px;
+    width: 80%;
+  }
+
+  .logo-set {
+    width: 80%;
+    height: auto;
+  }
 }
