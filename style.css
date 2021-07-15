@@ -108,3 +108,47 @@ h1 {
   background-color: none;
 }
 /* Copa America styles end */
+
+/*-------------
+     added videos
+----------- */
+.videos-title {
+  padding: 20px;
+}
+span {
+  color: rgba(1, 1, 68, 0.788);
+}
+.videos {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 5px;
+  margin-left: 45px;
+}
+/* logo set-up  */
+
+img {
+  width: 484px;
+  height: 110px;
+  margin-top: 20px;
+}
+.logo-set {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* social icon added  */
+
+.social-icon {
+  text-align: center;
+  color: gray;
+  margin-top: 10px;
+}
+i {
+  padding: 3px;
+}
+footer {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
